@@ -1,0 +1,91 @@
+.page-title{
+    font-size: 64px;
+    font-family: 'Anton', sans-serif;
+}
+
+.secondary-title{
+    font-family: 'Teko', sans-serif;
+}
+
+.top-banner{
+    background-image: url("../logo-icons/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.buy-now{
+    text-decoration: none;
+    background-color: rgb(165, 189, 67);
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.custom-card{
+    border: none;
+    background: white;
+}
+.custom-card-img {
+    width: 100%;
+    height: 20vw;
+    object-fit: contain;
+    background-color: rgb(165, 189, 67, 0.2);
+}
+
+.perk img{
+    width: 65%;
+}
+
+.custom-green{
+    color:rgb(118, 194, 126);
+}
+
+.custom-orange{
+    color: rgb(250, 128, 76);
+}
+
+.custom-blue{
+    color: rgb(51, 54, 87);
+}
+
+.border-round{
+    border-radius: 10px;
+}
+
+#subscribe{
+    height: 350px;
+    background-color: rgb(118, 194, 126, 0.3);
+}
+
+#about-us img{
+    width: 225px;
+}
+
+p{
+    text-align: justify;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+@media (max-width: 1023px){
+    .page-title{
+        font-size: 54px;
+    }
+
+    .custom-card-img {
+        width: 100%;
+        height: 60vw;
+    }
+
+    p{
+        font-size: 14;
+    }
+
+}
